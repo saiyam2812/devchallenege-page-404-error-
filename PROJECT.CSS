@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Space+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+}
+.heading{
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    height: 26px;
+    padding: 25px 37px;
+    line-height: 44px;
+    font-size: 26px;}
+.img{
+    display: flex;
+}
+img{
+    width: 525px;
+    height: 425px;
+    position: relative;
+    left: 50px;
+}
+.news{
+    display: inline-flex;
+}
+.news P{
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    top: 160px;
+    left: 742px;
+    height: 140px;
+    width: 542px;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 57px;
+    letter-spacing: -1px;
+  }
+
+.desc{
+    display: inline-flex;
+    
+}
+.desc p{
+    position: absolute;
+    top: 350px;
+    left: 741px;
+    font-family: 'Space Mono', monospace;
+    height: 108px;
+    width: 381px;
+    font-weight: 100;
+    color: #4F4F4F;
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 25px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn input{
+ position: absolute;
+  left: 738px;
+  top: 460px;
+  width: 300px;
+  height: 60px;
+}
+.btn input[value]{
+    color: white;
+    background: #333333;
+    border-radius: 10px;
+    font-family: 'Space Mono', monospace;
+}
+footer{
+    /* display: inline-block; */
+    text-align: center;
+    /* align-items: center; */
+}
+
+.owner{
+    font-family: 'Montserrat', sans-serif;
+    color: #BDBDBD;
+    font-size: 17px;
+    font-weight: 400;
+    height: 42px;
+    padding: 23px;
+    font-size: 24px;
+}
